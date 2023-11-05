@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LinearLayout01</string>
+    <string name="textView1">EjercicioAndroid2</string>
+    <string name="imageView">ImagenCirculo</string>
+    <string name="textView2">Nombre</string>
+    <string name="button">Edit Profile</string>
+    <string name="textView3">Followers</string>
+    <string name="textView4">Following</string>
+    <string name="textView5">Estrellita</string>
+</resources>

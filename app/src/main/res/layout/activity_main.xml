@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@color/purple"
+            android:padding="12sp"
+            android:text="@string/textView1"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_weight="-19"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:contentDescription="@string/imageView"
+            android:src="@drawable/circuloimagen"
+            app:srcCompat="@drawable/circuloimagen" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:padding="12sp"
+            android:text="@string/textView2"
+            android:textColor="@color/gray"
+            android:textSize="21sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="375dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#F8F4F4"
+            android:textAlignment="center"
+            android:text="@string/button"
+            android:textColor="@color/black"
+            android:textSize="19sp"
+            app:cornerRadius="5dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textView3"
+            android:textSize="18sp"
+            android:textColor="@color/gray"
+            android:padding="12sp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textView4"
+            android:textSize="18sp"
+            android:textColor="@color/gray"
+            android:padding="12sp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textView5"
+            android:textSize="18sp"
+            android:textColor="@color/gray"
+            android:padding="12sp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1" />
+    </TableRow>
+</TableLayout>
